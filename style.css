@@ -45,9 +45,36 @@ nav ul li:last-of-type {
   font-size: 28px;
 }
 
-.page-section h1, .page-section p , .page-section aside {
+.page-section h1 , .page-section p , .page-section aside {
   margin-bottom: 36px;
 }
+
+.quote {
+  margin-left: auto;
+  margin-right: auto;
+  color: rgb(60, 60, 60);
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.quote:before {
+  content: "\201C";
+  float: left;
+  margin-right: 12px;
+}
+
+.quote:after {
+  content: "\201D";
+  float: right;
+  margin-left: 12px;
+}
+
+.quote:before , .quote:after {
+  color: rgb(60, 60, 60);
+  font-size: 64px;
+}
+
 
 strong {
   font-weight: 500;
