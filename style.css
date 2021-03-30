@@ -59,13 +59,13 @@ nav ul li:last-of-type {
 }
 
 .quote:before {
-  content: "\201C";
+  content: '\201C';
   float: left;
   margin-right: 12px;
 }
 
 .quote:after {
-  content: "\201D";
+  content: '\201D';
   float: right;
   margin-left: 12px;
 }
